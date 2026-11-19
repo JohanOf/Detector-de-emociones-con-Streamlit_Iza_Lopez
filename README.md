@@ -137,6 +137,7 @@ En cumplimiento con los lineamientos académicos del proyecto, se declara formal
 - **Adaptación y verificación de rutas:** Se inspeccionó y adaptó la estructura de la carpeta `modelo_emociones_distilbert` para asegurar la correcta compatibilidad con Hugging Face `transformers.pipeline`.
 - **Alineación del idioma y etiquetas:** Se verificó la correspondencia entre los identificadores numéricos de las etiquetas (`id2label`) del `config.json` y los nombres mostrados en pantalla, incorporando emojis y la aclaración de las restricciones del idioma de entrenamiento (inglés).
 - **Control de errores y validaciones:** Se probaron y validaron los flujos de excepción (campo vacío, archivo CSV inválido, ausencia de pesos del modelo) para garantizar una experiencia de usuario estable y libre de caídas del servidor.
+- **Analisis de errores del modelo** Los estudiantes realizaron el analisis mediante discusion y experimentacion. En base a las razones iniciales propuestas por lo alumnos se amplio la explicacion y el alcance  del analisis de manera que los alumnos aprendieron sobre aspectos teoricos del modelo y las limitaciones existentes.
 
 ---
 
