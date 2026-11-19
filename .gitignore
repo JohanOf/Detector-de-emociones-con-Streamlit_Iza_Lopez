@@ -23,3 +23,7 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
+
+# Archivos de demostración
+frases_demostracion.md
+frases_demostracion.csv
