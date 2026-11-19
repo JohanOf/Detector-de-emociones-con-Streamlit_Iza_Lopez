@@ -1,0 +1,21 @@
+categoria,frase,emocion_esperada_o_real,objetivo_prueba
+Correctas,I just won the championship and I have never felt this happy before!,Alegría (Joy),Evaluar alta certeza con vocabulario unívoco
+Correctas,I feel so empty lonely and hopeless since you walked out of my life.,Tristeza (Sadness),Evaluar alta certeza con términos de duelo
+Correctas,I can't stand your constant lies anymore it makes my blood boil!,Ira (Anger),Evaluar alta certeza con hostilidad directa
+Correctas,I was walking alone in the dark alley and suddenly heard someone running behind me.,Miedo (Fear),Evaluar alta certeza en contexto de peligro
+Correctas,Thank you for always supporting me you are the most precious person in the world to me.,Amor (Love),Evaluar alta certeza en apego y gratitud
+Incorrectas,I am totally killing it at work today!,Alegría / Éxito,Trampa léxica por la palabra literal killing
+Incorrectas,Oh fantastic my car broke down in the rain on my way to the interview.,Ira / Frustración,Sarcasmo que confunde al modelo con fantastic
+Incorrectas,I am definitely not crying because I am sad don't worry.,Tristeza reprimida,Dificultad con la negación not
+Incorrectas,This horror movie is insanely good I loved how terrified it made me.,Satisfacción / Amor,Dominancia léxica de horror y terrified
+Incorrectas,You really have a unique talent for ruining every single family dinner.,Ira / Desprecio,Sarcasmo sutil que sesga hacia positividad
+Difíciles / Ambiguas,After that exam I feel like my life is over.,Tristeza vs Miedo,Dispersión de probabilidades y alerta de umbral
+Difíciles / Ambiguas,I just opened the acceptance letter and I'm trembling I don't know whether to laugh or scream.,Sorpresa vs Alegría vs Miedo,Conflicto multiemocional con baja certeza
+Difíciles / Ambiguas,I finally said goodbye to him it hurts like hell but I know it was the right decision.,Tristeza vs Alivio,Tensión entre duelo y tranquilidad
+Difíciles / Ambiguas,I didn't expect anyone to show up at my door at 3 AM.,Sorpresa vs Miedo,Incertidumbre entre sorpresa y amenaza nocturna
+Difíciles / Ambiguas,He bought me a car out of nowhere and I honestly feel weird about it.,Sorpresa vs Incomodidad,Choque entre regalo imprevisto y desconfianza
+Español (Limitación),Extraño jugar a la pelota con mis amigos los fines de semana.,Tristeza / Nostalgia,Fallo por tokenización fuera de vocabulario
+Español (Limitación),Estoy profundamente enamorado de ti desde el primer día.,Amor,Fallo por desconocimiento de morfología en español
+Español (Limitación),Siento un miedo terrible cada vez que tiembla la tierra.,Miedo,Sintaxis no alineada con el espacio vectorial anglosajón
+Español (Limitación),Qué rabia me da perder el autobús por solo un minuto.,Ira / Impotencia,Palabra clave rabia inexistente en el modelo
+Español (Limitación),No puedo creer que organizaron todo esto a mis espaldas ¡qué gran sorpresa!,Sorpresa / Alegría,Diferencia léxica entre sorpresa y surprise
