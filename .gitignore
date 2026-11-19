@@ -1,0 +1,25 @@
+# Modelo de emociones entrenado (pesos pesados, no subir a GitHub)
+modelo_emociones_distilbert/
+*.safetensors
+*.bin
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Streamlit
+.streamlit/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
